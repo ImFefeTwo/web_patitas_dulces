@@ -142,3 +142,50 @@ body {
 }
 
 
+@media (max-width: 720px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .header__left {
+        flex-direction: column;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+    }
+
+    .header__button {
+        display: inline-block;
+        margin-top: 2rem;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main__title-text {
+        font-size: 2rem;
+    }
+
+    .main__img-illustration {
+        width: 220px;
+        height: 220px;
+    }
+
+    .products__card {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 2rem;
+        padding: 12px;
+        scroll-snap-type: mandatory;
+        scroll-behavior: smooth;
+        scroll-snap-align: center;
+    }
+
+}
