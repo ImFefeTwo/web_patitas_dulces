@@ -1,83 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emprendimiento Galletas</title>
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <!-- Fuete -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <nav class="header__left">
-            <div class="header__logo">
-                <img src="img/LogoArreglado.png" alt="" class="header__logo-img">
-            </div>
-            <ul class="header__nav-list">
-                <li class="header__nav-item">
-                    <a href="" class="header__nav-link">Inicio</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="" class="header__nav-link">Sobre mi</a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="" class="header__nav-link">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="header__right">
-            <a href="https://wa.me/59892863707?text=Hola!%20Quiero%20hacer%20un%20pedido." class="header__button" target="_blank">Comprar</a>
-        </div>
+      <img
+        src="img/LogoArreglado.png"
+        alt="Logo de Emprendimiento"
+        class="header__logo-img"
+      />
+      <button class="header__menu-open-button" id="header__menu-open-button">
+        <i class="bi bi-list"></i>
+      </button>
+      <nav class="header__nav" id="header__nav">
+        <button class="header__nav-close-button" id="header__nav-close-button">
+          <i class="bi bi-x-lg"></i>
+        </button>
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link">Inicio</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link">Sobre mi</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link">Contacto</a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/59892863707?text=Hola!%20Quiero%20hacer%20un%20pedido."
+              class="header__buy-button"
+              target="_blank"
+              >Comprar</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main class="main">
-        <div class="main__title">
-            <h1 class="main__title-text">Alimentalos con amor, <span>porque ellos lo merecen</span></h1>
-        </div>
-        <div class="main__img">
-            <img src="img/Illustration.png" alt="Imagen de los alimentos para animales" class="main__img-illustration">
-        </div>
+      <div class="main__title">
+        <h1 class="main__title-text">
+          Alimentalos con amor, <span>porque ellos lo merecen</span>
+        </h1>
+      </div>
+      <div class="main__img">
+        <img
+          src="img/Illustration.png"
+          alt="Imagen de los alimentos para animales"
+          class="main__img-illustration"
+        />
+      </div>
     </main>
 
     <section class="products">
-        <h2 class="products__text">Productos</h2>
-        
-        <div class="products__card">
+      <h2 class="products__text">Productos</h2>
 
-            <div class="product">
-                <img src="img/imagenPrueba1.jpg" alt="" class="product__img">
-                <h3 class="product__name">Galletitas de zanahoria</h3>
-                <p class="product__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, odio.
-                </p>
-                <p class="product__price">$150 c/u</p>
-            </div>
-
-            <div class="product">
-                <img src="img/imagenPrueba2.jpg" alt="" class="product__img">
-                <h3 class="product__name">Galletitas de manzana</h3>
-                <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod
-                </p>
-                <p class="product__price">$170 c/u</p>
-            </div>
-
-            <div class="product">
-                <img src="img/imagenPrueba3.jpg" alt="" class="product__img">
-                <h3 class="product__name">Galletas de zanahoria y manzana</h3>
-                <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum
-                </p>
-                <p class="product__price">$90 c/u</p>
-            </div>
-
+      <div class="products__card">
+        <div class="product">
+          <img src="img/imagenPrueba1.jpg" alt="" class="product__img" />
+          <h3 class="product__name">Galletitas de zanahoria</h3>
+          <p class="product__description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus,
+            odio.
+          </p>
+          <p class="product__price">$150 c/u</p>
         </div>
 
+        <div class="product">
+          <img src="img/imagenPrueba2.jpg" alt="" class="product__img" />
+          <h3 class="product__name">Galletitas de manzana</h3>
+          <p class="product__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            quod
+          </p>
+          <p class="product__price">$170 c/u</p>
+        </div>
+
+        <div class="product">
+          <img src="img/imagenPrueba3.jpg" alt="" class="product__img" />
+          <h3 class="product__name">Galletas de zanahoria y manzana</h3>
+          <p class="product__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            dolorum
+          </p>
+          <p class="product__price">$90 c/u</p>
+        </div>
+      </div>
     </section>
 
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
